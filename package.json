@@ -1,0 +1,23 @@
+{
+  "name": "buma",
+  "description": "Front end framework",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "dependencies": {
+    "chokidar": "^1.1.0",
+    "express": "^4.13.3",
+    "log4js": "^0.6.27",
+    "uglify-js-brunch": "^1.7.8"
+  },
+  "main": "server/main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "coffee-script-brunch": "^1.8.2",
+    "fs-explorer": "^1.0.1",
+    "lodash": "git+https://github.com/lodash/lodash.git#6b09f1f233172eeff0643213f4ad846a5b74edd4",
+    "umd-builder": "^1.0.1"
+  }
+}
